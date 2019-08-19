@@ -38,7 +38,7 @@ class EnergyValues {
         return new Equation(a, b);
     }
 
-	//Returns the position of the element with the largest coefficient as the pivot
+//Returns the position of the element with the largest coefficient as the pivot
     static Position SelectPivotElement(double a[][], boolean used_rows[], boolean used_columns[]) {
         
     	Position pivot = new Position(0,0);
@@ -58,7 +58,7 @@ class EnergyValues {
     	return pivot;
     }
 
-	//Swaps two rows of the matrix for organization
+//Swaps two rows of the matrix for organization
     static void SwapLines(double a[][], double b[], boolean used_rows[], Position pivot_element) {
         int size = a.length;
 
@@ -94,7 +94,7 @@ class EnergyValues {
         
     }
     
-	//Scales the rest of the equations to the pivot
+//Scales the rest of the equations to the pivot
     static void scalePivot(double a[][], double b[], Position pivot_element)
     {
     	double div = a[pivot_element.row][pivot_element.column];
@@ -104,7 +104,7 @@ class EnergyValues {
     	b[pivot_element.row] /= div;
     }
 
-	//Marks the already used equations to avoid repetition
+//Marks the already used equations to avoid repetition
     static void MarkPivotElementUsed(Position pivot_element, boolean used_rows[], boolean used_columns[]) {
         used_rows[pivot_element.row] = true;
         used_columns[pivot_element.column] = true;
@@ -137,7 +137,7 @@ class EnergyValues {
             MarkPivotElementUsed(pivot_element, used_rows, used_columns);
         }
         
-		//Solves for the remaining values using the ones already obtained
+	//Solves for the remaining values using the ones already obtained
         backSubstitution(a,b);
 
         return b;
