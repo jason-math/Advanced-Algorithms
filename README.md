@@ -7,16 +7,16 @@ Advanced-Algorithms contains the programming prompts prompts and my custom solut
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Week One](#week-one)
+* [Week One - Flows in Networks](#week-one---flows-in-networks)
   * [Evacuation](#evacuation)
   * [Airline Crews](#airline-crews)
-* [Week Two](#week-two)
+* [Week Two - Linear Programming](#week-two---linear-programming)
   * [Energy Values](#energy-values)
   * [Diet](#diet)
-* [Week Three](#week-three)
+* [Week Three - NP-Complete Problems](#week-three---np-complete-problems)
   * [GSM Network](#gsm-network)
   * [Cleaning Apartment](#cleaning-apartment)
-* [Week Four](#week-four)
+* [Week Four - Coping with NP-Completeness](#week-four---coping-with-np-completeness)
   * [Circuit Design](#circuit-design)
   * [Plan Party](#plan-party)
 * [Contact](#contact)
@@ -30,7 +30,7 @@ In this week, I learned about network flows, how to calculate MaxFlow and MinCut
 Evacuation is a program that employs the Edmonds-Karp algorithm to find the MaxFlow given the edges of a network. In this program, I not only learned how to code the Edmonds-Karp algorithm, but in the process learned how to implement a breadth-first-search.
 
 ### Airline Crews
-AirlineCrews is a program that employs a Maximum Bipartite Matching algorithms to find the maximum number of airline crews that can be assigned to unique aircrafts when given a boolean array. In this program, I learned to convert a bipartite matching problem into a MaxFlow problem and then apply the Edmonds-Karp algorithm.
+AirlineCrews is a program that employs a Maximum Bipartite Matching algorithm to find the maximum number of airline crews that can be assigned to unique aircrafts when given a boolean array. In this program, I learned to convert a bipartite matching problem into a MaxFlow problem and then apply the Edmonds-Karp algorithm.
 
 <!-- Week Two -->
 ## Week Two - Linear Programming
@@ -44,16 +44,16 @@ Diet is a program that employs the Simplex Algorithm to solve a set of linear eq
 
 <!-- Week Three -->
 ## Week Three - NP-Complete Problems
-In this week, I learned about the various types of search problems and the distinction between P and NP. I learned that while NP problems do not have an efficient polynomial time solution, there are special cases where you can apply a reduction and simplify the problem into a problem which can be solved with a polynomial time algorithm.
+In this week, I learned about the various types of search problems and the distinction between P and NP. I learned that while NP problems do not have an efficient polynomial-time solution, there are special cases where you can apply a reduction and simplify the problem into a problem which can be solved with a polynomial-time algorithm.
 
 ### GSM Network
-GSMNetwork is a program that employs a 3SAT reduction to solve an independent set problem when given a set of verticies and edges.
+GSMNetwork is a program that employs a 3SAT reduction to solve an independent set problem when given a set of vertices and edges.
 
 ### Cleaning Apartment
 CleaningApartment is a program that employs a 3SAT reduction to solve a variant of the classic Hamiltonian path problem.
 
 <!-- Week Four -->
-## Week Four -  Coping with NP-Completeness
+## Week Four - Coping with NP-Completeness
 In this week, I learned about the modern methods to solve NP-Complete problems: Special cases, Exact algorithms, and Approximation algorithms.
 
 ### Circuit Design
