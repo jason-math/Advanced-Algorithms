@@ -2,7 +2,7 @@
 
 ## About
 
-Advanced-Algorithms contains the programming prompts prompts and my custom solutions to Coursera's "Advanced Algorithms and Complexity" course. I was selected by Google to be a student of their Computer Science Summer Institute-Coursera program, and completed this sponsored online course as part of Google's Data Structures and Algorithms curriculum.
+Advanced-Algorithms contains the programming prompts and my custom solutions to Coursera's "Advanced Algorithms and Complexity" course. I was selected by Google to be a student of their Computer Science Summer Institute-Coursera program, and completed this sponsored online course as part of Google's Data Structures and Algorithms curriculum.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
